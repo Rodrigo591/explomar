@@ -1,0 +1,183 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+}
+
+#banner {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border: 1px solid black;
+}
+
+.papel-de-parede{
+    width: 100%;
+    max-height:600px;
+
+}
+
+.por-cima{
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10%;
+}
+
+h1{
+    font-size: 42px;
+    color: white;
+}
+
+
+.button{
+    background-color: orange;
+    
+    margin: 30px 30px 10px 30px;
+    padding: 10px;
+    width: 250px;
+    
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+
+    color:white;
+    border: none;
+    
+}
+
+.button a:hover{
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+p > a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+.por-cima a {
+    color: white;
+}
+
+
+
+#cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid black;
+    padding: 40px;
+    
+}
+
+#titulo-card{
+    width: 100%;
+    padding: 0px 15px 75px 15px;
+    text-transform: uppercase;
+    font-size: 34px;
+}
+
+.card{
+    margin: 50px 30px 100px 50px;
+    width: 400px;
+    height: 300px;
+    justify-content: center;
+
+}
+.card h3{
+    font-size: 27px;
+}
+.card p {
+    font-size: 20px;
+
+}
+
+.pontos{
+    width: 450px;
+    height: 250px;
+}
+
+
+#incentivo{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    
+}
+
+#titulo-incentivo{
+    position: absolute;
+    font-size: 42px;
+    width: 100%;
+    padding: 15px 0px 0px 0px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.motivos{
+    margin: 10px 75px 100px 50px;
+    width: 400px;
+    height: 400px;
+    
+
+}
+
+
+.motivos-por-cima{
+    display: flex;
+}
+
+.plano-de-fundo{
+    width: 100%;
+    max-height: 500px;
+    opacity: 10;
+}
+
+.tampa{
+    width: 100%;
+    background: rgba(7, 6, 6, 0.507);
+    height: 500px;
+    position: absolute;
+    border: 1px solid rgba(17, 17, 17, 0.377);
+}
+
+.motivos p {
+    font-size: 24px;
+    color: white;
+}
+
+.motivos h3{
+    font-size: 32px;
+    color: white;
+}
+
+#feedback{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+
+}
+
+#titulo-feedback{
+    width: 100%;
+    text-transform: uppercase;
+    padding: 75px 15px;
+}
+
+.icones{
+    width: 75px;
+    height: 75px;
+}
